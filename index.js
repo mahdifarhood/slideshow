@@ -1,39 +1,4 @@
-// let slides = document.querySelectorAll(".slide");
-// let slideshow = document.querySelector(".slideshow");
-// let points =document.querySelector(".points > span");
-// let prev = document.querySelector(".prev");
-// let next = document.querySelector(".next");
-// let active = 0;
-// let timer = 1000;
 
-
-
-
-// function goNext(){
-// active = (active == slides.length - 1) ? 0 : active +1
-// slides.forEach(slide => slide.classList.remove("active"))
-// slides[active].classList.add("active")
-
-// active = (active == points.length - 1) ? 0 : active +1
-// points.forEach(point=> point.classList.remove("active"))
-// points[active].classList.add("active")
-
-// }
-
-// setInterval(goNext , timer );
-
-
-
-
-
-
-// function classSwitcher(){
-//     slide.forEach(slide =>slide.classList.remove("active"))
-//     slide[active].classList.add("active")
-
-
-
-// }
 
 function classSwitcher () {
 	slides.forEach(slide => slide.classList.remove("active"))
